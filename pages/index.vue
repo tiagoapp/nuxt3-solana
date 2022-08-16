@@ -1,12 +1,20 @@
 <script lang="ts" setup>
 import { WalletMultiButton, useWallet } from 'solana-wallets-vue'
 
-const { publicKey,  } = useWallet()
+const { publicKey } = useWallet()
 const { wallet, program } = useAnchor()
 
 watch(wallet, () => {
     console.log('anchor wallet available')
 })
+
+/* Anchor Examples */
+const create = async () => {
+    const tx = await program.value.methods.create().rpc();
+}
+const increment = async () => {
+    const tx = await program.value.methods.increment().rpc();
+}
 </script>
 
 <template>
