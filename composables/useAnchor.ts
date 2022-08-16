@@ -8,7 +8,7 @@ const preflightCommitment = 'processed'
 const commitment = 'confirmed'
 const programID = new PublicKey(idl.metadata.address)
 
-export const useWorkspace = () => {
+export const useAnchor = () => {
 
   const wallet = useAnchorWallet()
   const connection = new Connection(clusterApiUrl('devnet'), commitment)

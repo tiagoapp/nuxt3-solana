@@ -2,7 +2,7 @@
 import { WalletMultiButton, useWallet } from 'solana-wallets-vue'
 
 const { publicKey,  } = useWallet()
-const { wallet, program } = useWorkspace()
+const { wallet, program } = useAnchor()
 
 watch(wallet, () => {
     console.log('anchor wallet available')
