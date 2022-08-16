@@ -1,8 +1,17 @@
-# Nuxt 3 + Tailwind CSS + Solana Wallet
+# Solana Scaffold Nuxt 3+
 
 - [nuxt 3 documentation](https://v3.nuxtjs.org)
 - [solana wallets vue](https://github.com/lorisleiva/solana-wallets-vue)
 - [nuxt tailwind](https://tailwindcss.nuxtjs.org/)
+- [anchor Framework](https://github.com/coral-xyz/anchor)
+
+## Features
+This Scaffold contain the following features:
+
+- Wallet Integration (Nuxt 3)
+- Anchor Framework Composable (useAnchor)
+- Toast (Notifications)
+- Tailwind CSS Framework
 
 ## Setup
 
@@ -14,9 +23,6 @@ yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
