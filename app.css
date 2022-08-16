@@ -1,0 +1,9 @@
+.Vue-Toastification__toast{
+    border-radius: 0;
+    box-shadow: none;
+    font-family: inherit;
+}
+
+.Vue-Toastification__toast--default{
+    background: theme('colors.primary');
+}
